@@ -1,0 +1,126 @@
+*
+
+body{
+    background-color: rgb(0, 255, 234);
+    background-size: height="300px" weight="500px";
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: rgb(o, 100, 0);
+    text-align: center;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15;
+}
+.menu-bar ul li{
+    text-decoration: none;
+    color:#fff
+}
+.active, .menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.search-form{
+    margin-top: 15px;
+    float: center;
+    margin-right: 90px;
+}
+input[type=text]{
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+button{
+    float: center;
+    background: orange;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px;
+
+}
+section{
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(198, 194, 226);
+    background-position: center;
+    background-size: 10;
+    text-align: center;
+}
+.para-one{
+    padding: 15px;
+    margin: 10px;
+    background-color: hotpink;
+}
+.para-two{
+    width: 500;
+    background-color: mintcream;
+    padding: 15px;
+    margin:10px;
+}
+#name{
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(178, 128, 211);
+}
+.para-four{
+    padding: 15px;
+    margin: 10px;
+    bakground-color: rgb(231, 142, 231);
+}
+.para-five{
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(65, 122, 93);
+}
+.two{
+    border: rgb(24, 35, 180);
+}
+.one{
+    background-color: gold;
+}
+
+
+.color{
+    color: rgb(40, 21, 204);
+    font-size: 20px;
+}
+#name{
+    background-color: rgb(21, 255, 0);
+}
+#form{
+    background: turquoise;
+    text-align: center;
+}
+#table{
+    
+        border: 1px solid rgb(192, 30, 30);
+        padding: 15px;
+        margin: 10px;
+}
+#border,th,td,tr{
+    border: 1px solid black;}
+    li:first-child{
+        color: rgb(21, 255, 0);
+    }
